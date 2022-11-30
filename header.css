@@ -1,0 +1,105 @@
+
+@font-face {
+    font-family: Merienda One;
+    src: url("fonts/MeriendaOne-Regular.ttf") format("opentype");
+    }
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(250, 189, 189, 1);
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    right: 160px;
+}
+
+.header__menu-item{
+    padding-right: 58px;
+    list-style: none;
+}
+
+.header__menu-link{
+    margin: 0 auto;
+    font-size: 32px;
+    font-family: Merienda One;
+    text-decoration: none;
+    color: white;
+}
+
+.header__logo{
+    left: 160px;
+    top: 15px;
+    position: absolute;
+}
+
+@media (max-width: 1350px) {
+    .header__menu-link{
+        margin: 0 auto;
+        font-size: 26px;
+        font-family: Merienda One;
+        text-decoration: none;
+        color: white;
+    }
+}
+
+@media (max-width: 1100px) {
+    .header__menu-link{
+        font-size: 24px;
+    }
+
+    .header__logo{
+        left: 100px;
+        top: 15px;
+        position: absolute;
+    }
+
+    .header-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: absolute;
+        right: 100px;
+    }
+
+    .header__menu-item{
+        padding-right: 30px;
+        list-style: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .header__menu-link{
+        font-size: 14px;
+    }
+
+    .header__logo{
+        left: 40px;
+        top: 15px;
+        position: absolute;
+    }
+
+    .header-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: absolute;
+        right: 40px;
+    }
+
+    .header__menu-item{
+        padding-right: 10px;
+        list-style: none;
+    }
+}
+
+

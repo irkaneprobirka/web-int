@@ -1,0 +1,212 @@
+@font-face {
+    font-family: Merienda One;
+    src: url("fonts/MeriendaOne-Regular.ttf") format("opentype");
+    }
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(250, 189, 189, 1);
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    position: relative;
+}
+
+body{
+    margin: 0;
+    background-image: url(img/body.png);}
+
+.header-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    right: 160px;
+}
+
+.header__menu-item{
+    padding-right: 58px;
+    list-style: none;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+}
+.hero__slider1{
+    background-color: rgba(240, 233, 255, 1);
+    height: 1000px;
+    width: 960px;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.hero__slider2{
+    background-color: rgba(251, 228, 228, 1);
+    height: 1000px;
+    width: 960px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+h1{
+    font-family:'Open Sans', sans-serif;
+    font-size: 64px;
+    color: rgba(124, 100, 100, 1);
+}
+
+.hero__slider-p{
+    font-family:'Open Sans', sans-serif;
+    font-size: 36px;
+}
+.header__menu-link{
+    margin: 0 auto;
+    font-size: 32px;
+    font-family: Merienda One;
+    text-decoration: none;
+    color: white;
+}
+
+.header__logo{
+    left: 160px;
+    top: 15px;
+    position: absolute;
+}
+
+.items{
+    width: 500px;
+    height: 100px;
+    background-color: rgba(250, 189, 189, 1);
+    border-radius: 10px;
+    border: none;
+    font-size: 48px;
+    color: rgba(102, 71, 71, 1);
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.new-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.product-card{
+    height: 620px;
+    width: 370px;
+    background-color: rgba(255, 237, 237, 1);
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-img{
+    width: 376px;
+    height: 450px;
+}
+
+.product-name{
+    font-family:'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.buttons-card{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.select{
+    font-family:'Open Sans', sans-serif;
+    font-size: 20px;
+    width: 150px;
+    height: 45px;
+    background-color: rgba(255, 237, 237, 1);
+    border-color: rgba(255, 237, 237, 1);
+    border-radius: 5px;
+    margin-right: 50px;
+}
+
+.like{
+    font-family:'Open Sans', sans-serif;
+    font-size: 20px;
+    width: 35px;
+    height: 45px;
+    background-color: rgba(255, 237, 237, 1);
+    border-color: rgba(255, 237, 237, 1);
+    border-radius: 5px;
+}
+
+.hits-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.banner-section{
+    background-color: rgba(255, 237, 237, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.banner-text{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-p{
+    font-family:'Open Sans', sans-serif;
+    font-size: 36px;
+}
+h2{
+    font-family:'Open Sans', sans-serif;
+    font-size: 64px;
+    color: rgba(124, 100, 100, 1);
+}
+
+h3{
+    text-align: center;
+    font-family:'Open Sans', sans-serif;
+    font-size: 64px;
+    color: rgba(124, 100, 100, 1);
+    margin-bottom: 80px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(253, 222, 222);
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.sale-img{
+
+    width: 550px;
+    height: 300px;
+
+}
+
+.like-img{
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+}
+
+.wrapper{
+
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
