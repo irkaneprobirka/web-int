@@ -151,7 +151,7 @@ h1 {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
 
     .catalog-section {
         display: flex;
@@ -166,9 +166,22 @@ h1 {
     h1 {
         text-align: center;
         font-family: 'Open Sans', sans-serif;
+        font-size: 36px;
+        font-weight: 100;
+        color: rgba(124, 100, 100, 1);
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    h1 {
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
         font-size: 48px;
         font-weight: 100;
         color: rgba(124, 100, 100, 1);
         margin-top: 50px;
     }
+
 }

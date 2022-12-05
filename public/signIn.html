@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/signIn.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="header__logo">
+                <a class="header__menu-link" href="../public/index.html">Beauty Shop</a>
+            </div>
+            <ul class="header-menu">
+                <li class="header__menu-item">
+                    <a class="header__menu-link" href="../public/index.html">Home</a>
+                </li>
+                <li class="header__menu-item">
+                    <a class="header__menu-link" href="../public/catalog.html">Catalog</a>
+                </li>
+                <li class="header__menu-item">
+                    <a class="header__menu-link" href="../public/contact.html">Contact</a>
+                </li>
+                <li class="header__menu-item">
+                    <a class="header__menu-link" href="../public/signIn.html">Sign In</a>
+                </li>
+            </ul>
+        </header>
+
+
+        <section class="signIn">
+            <h1>SIGN IN</h1>
+            <div class="form-class">
+                <input class="login__input" placeholder="EMAIL">
+                <input class="password__input" placeholder="PASSWORD">
+            </div>
+            <div class="border-btn">
+                <button id="open" class="btn-signin">SIGN IN</button>
+                <p>FORGOT PASSWORD?</p>
+            </div>
+        </section>
+        <!-- .modal-container>.modal-content>button.close+p -->
+        <!-- Окно на весь экран -->
+        <div class="modal-container">
+            <!-- Окно модалки -->
+            <div class="modal-content">
+                <p>Здравствуйте, с возвращением!</p>
+                <button class="close">Закрыть</button>
+            </div>
+        </div>
+        <!-- Подключение JS -->
+    </div>
+    <footer>
+        <div class="header__logo">
+            <a class="header__menu-link" href="index.html">Beauty Shop</a>
+        </div>
+
+        <div href="#" class="telephone">
+            <svg class="twitter__icon">
+                <use xlink:href="../sprite.svg#twitter"></use>
+            </svg>
+
+            <svg class="vk__icon">
+                <use xlink:href="../sprite.svg#vk"></use>
+            </svg>
+
+            <svg class="inst__icon">
+                <use xlink:href="../sprite.svg#inst"></use>
+            </svg>
+        </div>
+    </footer>
+    <script src="../main.js"></script>
+</body>
+
+</html>

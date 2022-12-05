@@ -2,7 +2,7 @@
     font-family: Merienda One;
     src: url("fonts/MeriendaOne-Regular.ttf") format("opentype");
     }
-
+@import url('/css/footer.css');
 .header{
     display: flex;
     flex-direction: row;
@@ -15,7 +15,8 @@
 
 body{
     margin: 0;
-    background-image: url(img/body.png);}
+    background-image: url(../img/body.png);
+}
 
 .header-menu{
     display: flex;
@@ -36,8 +37,6 @@ body{
 }
 .hero__slider1{
     background-color: rgba(240, 233, 255, 1);
-    height: 1000px;
-    width: 960px;
     align-items: center;
     display: flex;
     margin: 0 auto;
@@ -46,24 +45,25 @@ body{
 
 .hero__slider2{
     background-color: rgba(251, 228, 228, 1);
-    height: 1000px;
-    width: 960px;
     align-items: center;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     justify-content: center;
+    height: 100%;
 }
-
-h1{
+.slider-name{
     font-family:'Open Sans', sans-serif;
-    font-size: 64px;
+    font-size: 36px;
     color: rgba(124, 100, 100, 1);
 }
 
 .hero__slider-p{
     font-family:'Open Sans', sans-serif;
-    font-size: 36px;
+    font-size: 24px;
+    padding: 4%;
+    margin-bottom: 15%;
+    text-align: center;
 }
 .header__menu-link{
     margin: 0 auto;
@@ -80,20 +80,22 @@ h1{
 }
 
 .items{
-    width: 500px;
-    height: 100px;
+    width: 250px;
+    height: 70px;
     background-color: rgba(250, 189, 189, 1);
     border-radius: 10px;
     border: none;
-    font-size: 48px;
+    font-size: 24px;
     color: rgba(102, 71, 71, 1);
-    margin-bottom: 50px;
+    margin-bottom: 5%;
     cursor: pointer;
 }
 
 .new-section{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .product-card{
@@ -147,6 +149,8 @@ h1{
 .hits-section{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .banner-section{
@@ -170,7 +174,7 @@ h1{
 }
 h2{
     font-family:'Open Sans', sans-serif;
-    font-size: 64px;
+    font-size: 36px;
     color: rgba(124, 100, 100, 1);
 }
 
@@ -209,4 +213,54 @@ h3{
     height: 100%;
     width: 100%;
     overflow: hidden;
+}
+
+@media (max-width: 768px) {
+
+    .product-card {
+
+        height: 320px;
+        width: 180px;
+        margin-bottom: 10%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .product-img {
+        width: 180px;
+        height: 200px;
+    }
+
+    .select {
+        width: 100px;
+        height: 30px;
+
+    }
+
+    .buttons-card {
+        align-items: center;
+        display: flex;
+        flex-direction: none;
+        justify-content: center;
+    }
+
+    .like{
+        display: none;
+    }
+
+    .product-name{
+        font-family:'Open Sans', sans-serif;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    h3{
+        text-align: center;
+        font-family:'Open Sans', sans-serif;
+        font-size: 48px;
+        color: rgba(124, 100, 100, 1);
+        margin-bottom: 80px;
+        font-weight: 200;
+    }
 }

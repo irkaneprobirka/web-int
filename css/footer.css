@@ -1,0 +1,98 @@
+footer{
+    background-color: rgb(255, 213, 213);
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+
+.telephone{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+}
+
+.twitter__icon{
+
+    fill: aliceblue;
+    height: 60px;
+    width: 60px;
+    margin-right: 15%;
+}
+
+.vk__icon{
+
+    fill: aliceblue;
+    height: 60px;
+    width: 60px;
+    margin-right: 15%;
+}
+
+.inst__icon{
+
+    fill: aliceblue;
+    height: 60px;
+    width: 60px;
+    margin-right: 15%;
+}
+
+.header__logo{
+    left: 10%;
+    top: 25%;
+    position: absolute;
+}
+
+@media (max-width: 480px) {
+    .twitter__icon{
+
+        fill: aliceblue;
+        height: 30px;
+        width: 30px;
+        margin-right: 15%;
+    }
+    
+    .vk__icon{
+    
+        fill: aliceblue;
+        height: 30px;
+        width: 30px;
+        margin-right: 15%;
+    }
+    
+    .inst__icon{
+    
+        fill: aliceblue;
+        height: 30px;
+        width: 30px;
+        margin-right: 15%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .twitter__icon{
+
+        fill: aliceblue;
+        height: 40px;
+        width: 40px;
+        margin-right: 15%;
+    }
+    
+    .vk__icon{
+    
+        fill: aliceblue;
+        height: 40px;
+        width: 40px;
+        margin-right: 15%;
+    }
+    
+    .inst__icon{
+    
+        fill: aliceblue;
+        height: 40px;
+        width: 40px;
+        margin-right: 15%;
+    }
+}
