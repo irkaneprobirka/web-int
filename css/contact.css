@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    background-image: url(../img/contact-body.png);
+}
+
+.contact__information {
+    margin-top: 7%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1__contact {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 56px;
+    font-weight: 100;
+    color: rgba(124, 100, 100, 1);
+    /* margin-top: 150px; */
+}
+
+.p__information {
+    font-size: 24px;
+    color: rgba(102, 71, 71, 1);
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 7%;
+}
+
+
+.map__contact__information{
+    margin-right: 7%;
+}
+
+.view__shop{
+    margin-top: 7%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopInside{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5%;
+}
+
+.shopOutside{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:1400px) {
+
+    .p__information {
+
+        font-size: 20px;
+        color: rgba(102, 71, 71, 1);
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 7%;
+    }
+    
+    .h1__contact {
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 48px;
+        font-weight: 100;
+        color: rgba(124, 100, 100, 1);
+        /* margin-top: 150px; */
+    }
+
+    .map{
+        width: 500px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 1200px) {
+    
+    .shop-img {
+
+        width: 350px;
+        height: 550px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .map{
+        width: 270px;
+        height: 170px;
+    }
+
+    .p__information {
+
+        font-size: 16px;
+        color: rgba(102, 71, 71, 1);
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 7%;
+    }
+
+    .shop-img {
+
+        width: 150px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .contact__information {
+        margin-top: 7%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .map{
+        width: 350px;
+        height: 170px;
+        margin-bottom: 5%;
+    }
+
+    .p__information {
+
+        font-size: 16px;
+        color: rgba(102, 71, 71, 1);
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 7%;
+    }
+
+    .shop-img {
+
+        width: 150px;
+        height: 250px;
+    }
+
+    .h1__contact {
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 36px;
+        font-weight: 100;
+        color: rgba(124, 100, 100, 1);
+        /* margin-top: 150px; */
+    }
+
+    .map__contact__information{
+        margin-right: 0;
+    }
+}
